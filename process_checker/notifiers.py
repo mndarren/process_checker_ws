@@ -7,7 +7,9 @@ import yaml
 
 
 class EmailConfig:
-
+    """
+    Email config
+    """
     def __init__(self, yml_config='notifier_config.yml'):
         """
         Read values from config yaml file
@@ -47,5 +49,5 @@ class Email:
 
             msg = f'Subject: {subject}\nFrom: {self._config.username}\nTo: {self._config.recipients}\n\n{body}'
             smtp_server.sendmail(self._config.username, self._config.recipients, msg)
-        except Exception as e:
+        except smtplib.SMTPException as e:
             print(str(e))

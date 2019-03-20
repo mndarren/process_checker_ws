@@ -8,12 +8,37 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/docs/source/conf.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/process_checker/__init__.py">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/process_checker/main.py">
           <value>
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/process_checker/notifier_config.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/process_checker/notifiers.py">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/setup.py">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/tests/test_process_checker.py">
           <value>
             <set />
           </value>
